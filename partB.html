@@ -1,0 +1,29 @@
+<html>
+<head><title>Number Guessing Game</title>
+<script src="partB.js"></script>
+</head>
+<body onload = "init()">
+  <h1>Guess a Number (Between 0 and 100)  </h1>  
+
+<div id="right" style="float:right;">
+ <label>Clock timer :</label>
+ <span id="min"></span>:<span id="sec"></span><BR>
+
+</div>
+
+  <form>
+      <div id = "display">
+       Guess a number between 0 and 100. I will tell you if its correct, high or low.
+      </div><BR>
+    YOUR GUESS : <input type = "text" id = "txtGuess">
+      <button type = "button" id="guess" onclick = "checkGuess()">Guess</button>
+      
+      <button type = "button" id = "again" onclick = "init()">Try again</button>
+</form>
+
+<a href="index.html">Index</a><br><br>
+<a href="partA.html">PART A</a><br><br>
+<a href="partC.html">PART C</a><br><br>
+
+</body>
+</html>
